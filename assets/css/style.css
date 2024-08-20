@@ -1,0 +1,150 @@
+.tabs-root {
+    align-items: flex-start;
+    flex-direction: column;
+    display: block;
+    justify-content: flex-start;
+    padding: 0;
+    row-gap: 18px;
+    background: lightblue !important;
+} 
+
+.button-container {
+    display: flex;
+    width: 100%;
+    margin: 0; /* Ensure container has no margin */
+}
+
+.tabbutton {
+    flex: 1; /* Make buttons expand to fill available space */
+    text-align: center;
+    padding: 10px 0; /* Ensure padding is only top and bottom */
+    background-color: #0598ec !important; /* Default background color */
+    color: #f7f7fa !important; /* Default text color */
+    cursor: pointer;
+    border: unset !important;
+    border-radius: unset !important;
+    margin: 0; /* Remove default margin */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.tabbutton:hover {
+    background-color: #1189e6 !important; /* Hover background color */
+    color: white !important; /* Hover text color */
+}
+
+.tabbutton.active {
+    background-color: #024172 !important; /* Active button background color */
+    color: white !important; /* Active button text color */
+}
+
+.startMainDiv {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+  }
+  
+/* backgorud color  */
+.f1vhk6qx {
+    background: lightblue !important;
+}
+
+
+.full-width-dropdown {
+    width: 100%;
+  }
+  
+
+  .pitchmarkMainDiv {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+  }
+  .VariablesMainDiv {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box; /* Ensure padding and borders are included in width */
+  }
+  
+  .product_dropdown{
+    width: 50% !important;
+    min-width: 55% !important;
+    max-width: 50% !important;
+
+    height: 30% !important;
+    max-height: 30% !important;
+    min-height: 30% !important;
+  }
+  .product_div{
+    margin-top: "8px" !important;
+    display:"flex" !important;
+    justify-content: space-evenly !important;
+    align-items: baseline !important;
+  }
+
+
+  .IPPortfolio_dropdown{
+    width: 50% !important;
+    min-width: 55% !important;
+    max-width: 50% !important;
+
+    height: 30% !important;
+    max-height: 30% !important;
+    min-height: 30% !important;
+  }
+  .IPPortfolio_div{
+    margin-top: "8px" !important;
+    display:"flex" !important;
+    justify-content: space-evenly !important;
+    align-items: baseline !important;
+  }
+
+  .document_dropdown{
+    width: 50% !important;
+    min-width: 55% !important;
+    max-width: 50% !important;
+
+    height: 30% !important;
+    max-height: 30% !important;
+    min-height: 30% !important;
+  }
+  .document_div{
+    margin-top: "8px" !important;
+    display:"flex" !important;
+    justify-content: space-evenly !important;
+    align-items: baseline !important;
+  }
+
+
+
+
+  .PichmarkSearch_div{
+    margin-top: "8px" !important;
+    display:"flex" !important;
+    justify-content: space-evenly !important;
+    align-items: baseline !important;
+  }
+.pitchMarkTextArea{
+    width: 56.5vh !important;
+    max-width: 56.5vh !important;
+    min-width: 56.5vh !important;
+    height: 30vh !important;
+}
+
+/* variable  */
+
+.variables_Input{
+    margin-top: "8px" !important;
+    display:"flex" !important;
+    justify-content: space-evenly !important;
+    align-items: baseline !important;
+    padding: 8px 6px !important;
+    margin-left: -12px  !important;
+
+
+  }
